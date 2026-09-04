@@ -20,7 +20,7 @@ import TimerProvider from "./core/providers/TimerProvider";
 
 createRoot(document.getElementById("root")!).render(
   <ErrorBoundary>
-    <BrowserRouter>
+    <BrowserRouter basename="/tg-webapp-wallet">
       <SDKProvider acceptCustomStyles>
         <QueryClientProvider client={queryClient}>
           <ThemeProvider>
