@@ -1,0 +1,7 @@
+.bg:before {
+  background-image: url("../../assets/icons/Regular/SuccessWhite.svg");
+}
+
+.dark .bg:before {
+  background-image: url("../../assets/icons/Regular/SuccessDark.svg");
+}
