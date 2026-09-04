@@ -19,5 +19,6 @@ interface ImportMeta {
     VITE_REQUEST_STUCK_MS?: string;
     VITE_AVAILABLE_LANGUAGES?: string;
     VITE_DEFAULT_LANGUAGE?: string;
+    BASE_URL?: string;
   };
 }
