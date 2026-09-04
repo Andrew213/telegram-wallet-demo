@@ -17,6 +17,7 @@ export default defineConfig({
       include: "**/*.svg",
     }),
   ],
+  base: "/tg-webapp-wallet/",
   server: {
     port: 3000,
     host: "127.0.0.1",
